@@ -1,4 +1,4 @@
-package org.pozopardo.kafka.tutorial;
+package org.pozopardo.kafka.tutorial.exercises;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -12,9 +12,9 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.Properties;
 
-public class ConsumerGroupsDemo {
+public class ConsumerDemo {
 
-    private static final Logger logger = LoggerFactory.getLogger(ConsumerGroupsDemo.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(ConsumerDemo.class.getName());
     private static final String bootstrapServers = "127.0.0.1:9092";
     private static final String topic = "first_topic";
     private static final String groupId = "my-mega-application";

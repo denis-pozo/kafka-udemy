@@ -1,4 +1,4 @@
-package org.pozopardo.kafka.tutorial;
+package org.pozopardo.kafka.tutorial.exercises;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
