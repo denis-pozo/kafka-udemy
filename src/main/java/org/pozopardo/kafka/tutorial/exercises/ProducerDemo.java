@@ -26,7 +26,7 @@ public class ProducerDemo {
 
         // 3. Create producer record
         ProducerRecord<String, String> record = new ProducerRecord<>("first_topic", "hello world");
-        // 4. Send datal
+        // 4. Send data
         producer.send(record);
 
         // 5. Flush data and close
